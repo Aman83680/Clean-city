@@ -1,0 +1,19 @@
+clean-city/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── screenshots/
+│
+├── docs/
+│   ├── project-overview.md
+│   └── future-features.md
+│
+├── README.md
+├── LICENSE
+├── CHANGELOG.md
+└── .gitignore
