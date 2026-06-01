@@ -1,0 +1,4 @@
+- Firebase backend
+- GPS integration
+- AI image verification
+- Admin dashboard
