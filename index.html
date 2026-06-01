@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean City - Smart Cleanliness Reporting System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-leaf"></i> Clean City
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#report">Report Issue</a></li>
+            <li><a href="#leaderboard">Leaderboard</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Keep Our City Clean & Green</h1>
+            <p>
+                Report cleanliness issues, earn reward points,
+                and help build a better environment.
+            </p>
+
+            <button>Report Now</button>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats">
+        <div class="card">
+            <h2>250+</h2>
+            <p>Reports Submitted</p>
+        </div>
+
+        <div class="card">
+            <h2>180+</h2>
+            <p>Issues Resolved</p>
+        </div>
+
+        <div class="card">
+            <h2>92%</h2>
+            <p>Cleanliness Score</p>
+        </div>
+
+        <div class="card">
+            <h2>500+</h2>
+            <p>Active Citizens</p>
+        </div>
+    </section>
+
+    <!-- Report Form -->
+    <section class="report-section" id="report">
+
+        <h2>Report a Cleanliness Issue</h2>
+
+        <form id="reportForm">
+
+            <input type="text"
+                   placeholder="Your Name"
+                   required>
+
+            <input type="text"
+                   placeholder="Location"
+                   required>
+
+            <select required>
+                <option value="">
+                    Select Issue Type
+                </option>
+
+                <option>
+                    Garbage Dump
+                </option>
+
+                <option>
+                    Overflowing Dustbin
+                </option>
+
+                <option>
+                    Dirty Street
+                </option>
+
+                <option>
+                    Water Logging
+                </option>
+
+            </select>
+
+            <textarea
+                placeholder="Describe the issue..."
+                rows="5">
+            </textarea>
+
+            <input type="file">
+
+            <button type="submit">
+                Submit Report
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Leaderboard -->
+    <section class="leaderboard"
+             id="leaderboard">
+
+        <h2>Top Contributors</h2>
+
+        <div class="leaderboard-list">
+
+            <div class="user">
+                <span>🏆 Aman Kumar</span>
+                <span>500 Points</span>
+            </div>
+
+            <div class="user">
+                <span>🥈 Rahul</span>
+                <span>420 Points</span>
+            </div>
+
+            <div class="user">
+                <span>🥉 Priya</span>
+                <span>390 Points</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Achievement Badges -->
+    <section class="badges">
+
+        <h2>Achievement Badges</h2>
+
+        <div class="badge-container">
+
+            <div class="badge">
+                🌱 Green Warrior
+            </div>
+
+            <div class="badge">
+                ⭐ City Hero
+            </div>
+
+            <div class="badge">
+                🏆 Cleanliness Champion
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery"
+             id="gallery">
+
+        <h2>Before & After Cleanup</h2>
+
+        <div class="gallery-grid">
+
+            <div class="image-box">
+                Before Image
+            </div>
+
+            <div class="image-box">
+                After Image
+            </div>
+
+            <div class="image-box">
+                Before Image
+            </div>
+
+            <div class="image-box">
+                After Image
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>Clean City Initiative</h3>
+
+        <p>
+            Together we can build
+            a cleaner and healthier city.
+        </p>
+
+        <p>
+            © 2026 All Rights Reserved
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
